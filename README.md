@@ -48,6 +48,17 @@ Test set performance:
 The confusion matrix confirms a very small number of misclassifications and good generalization performance.
 Feature reduction, standardization, and hyperparameter tuning significantly improved model stability and accuracy.
 
+## Visual Results
+### **Model Comparison on Validation Set**
+  ![Model Metrics](model_metrics.png)
+  Comparison of accuracy, precision, recall, and F1-score for kNN and Naive Bayes models.
+### **Confusion Matrix – kNN (Test Set)**
+  ![Confusion Matrix](confusion_matrix.png)
+  The confusion matrix shows very few misclassifications between the two rice classes (Gonen and Jasmine).
+### **Model Performance Comparison**
+  ![Accuracy Comparison](accuracy_comparison.png)
+  This chart compares validation accuracy for both models and test accuracy for the selected kNN model.
+
 ## Technologies
 - Python
 - NumPy
@@ -57,13 +68,15 @@ Feature reduction, standardization, and hyperparameter tuning significantly impr
 - Google Colab
 
 ## Repository Structure
+```bash
 ├── EWD.ipynb # Jupyter Notebook with full analysis and modeling 
 ├── ewd_presentation.pdf # Project presentation with visual results 
 └── README.md # Project description
+```
 
 ## How to Run
 You can run the notebook in:
-- **Google Colab** (recommended)
+- **Google Colab**
 - **Jupyter Notebook / JupyterLab**
 
 Steps:
@@ -71,8 +84,8 @@ Steps:
 1. Clone the repository or download the files.
 2. Open EWD.ipynb in your preferred environment.
 3. Install required libraries if needed:
-  - numpy
-  - pandas
-  - matplotlib
-  - scikit-learn
+    - numpy
+    - pandas
+    - matplotlib
+    - scikit-learn
 4. Run all cells sequentially.
