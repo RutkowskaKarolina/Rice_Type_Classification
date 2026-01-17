@@ -51,13 +51,18 @@ Feature reduction, standardization, and hyperparameter tuning significantly impr
 ## Visual Results
 ### **Model Comparison on Validation Set**
   ![Model Metrics](model_metrics.png)
-  Comparison of accuracy, precision, recall, and F1-score for kNN and Naive Bayes models.
+
+Comparison of accuracy, precision, recall, and F1-score for kNN and Naive Bayes models.
+
 ### **Confusion Matrix – kNN (Test Set)**
   ![Confusion Matrix](confusion_matrix.png)
-  The confusion matrix shows very few misclassifications between the two rice classes (Gonen and Jasmine).
+
+The confusion matrix shows very few misclassifications between the two rice classes (Gonen and Jasmine).
+
 ### **Model Performance Comparison**
   ![Accuracy Comparison](accuracy_comparison.png)
-  This chart compares validation accuracy for both models and test accuracy for the selected kNN model.
+
+This chart compares validation accuracy for both models and test accuracy for the selected kNN model.
 
 ## Technologies
 - Python
